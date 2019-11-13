@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ev.Subsidiaries.Contract.Commands\Ev.Subsidiaries.Contract.Commands.csproj" />
+    <ProjectReference Include="..\Ev.Subsidiaries.Domain\Ev.Subsidiaries.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
